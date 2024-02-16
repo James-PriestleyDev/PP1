@@ -1,47 +1,66 @@
+/* Import Google fonts */
+
 /*Asterisk wildcar selector to override default styles added by the browser */
 * {
-
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* General styles */
 body {
-
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: palevioletred;
 }
 
 /* h stylings */
 h1, h2, h3 {
-
+    font-family: ;  
 }
 
 /* Header */
 header {
-
-}
-
-/* Styling of links in nav bar */
-
-header a {
-
+    background-color: palegoldenrod;
+    
 }
 
 /* styling of nav bar */
+.nav-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 #nav-bar {
 
 }
 
-/* Styling for main content */
+#nav-bar a:hover {
+    text-transform: uppercase;
+}
+
+/* Styling for main info */
+
 #main-info {
+    background-color: paleturquoise;
 
 }
 
-/* Styling for about AI div */
 .info-div {
-
+    
+/* Styling for links */
+    
+}
+#links {
+    background-color: palegreen;
 }
 
 /* Styling for links div */
 .links-div {
-
+    
+       
 }
 
 /* Styling of a in links-div */
@@ -54,4 +73,8 @@ header a {
 
 /* NEWSLETTER PAGE */
 
-/* Styling footer */
+/* Styling Social Media links*/
+
+footer {
+    background-color: palegoldenrod;
+}
