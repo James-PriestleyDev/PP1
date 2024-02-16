@@ -17,7 +17,7 @@ body {
 
 /* h stylings */
 h1, h2, h3 {
-    font-family: ;  
+     
 }
 
 /* Header */
@@ -45,14 +45,18 @@ header {
 
 #main-info {
     background-color: paleturquoise;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
 
 }
 
 .info-div {
-    
-/* Styling for links */
-    
+       
 }
+
+/* Styling for links */
+
 #links {
     background-color: palegreen;
 }
@@ -70,6 +74,15 @@ header {
 
 /* GALLERY PAGE */
 
+#ai-imgs img {
+    width: 100%;
+    line-height: 1em;
+    
+}
+
+#ai-imgs {
+    line-height: 0;
+}
 
 /* NEWSLETTER PAGE */
 
@@ -78,3 +91,7 @@ header {
 footer {
     background-color: palegoldenrod;
 }
+
+
+
+
